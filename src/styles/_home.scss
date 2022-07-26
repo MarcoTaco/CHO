@@ -1,0 +1,9 @@
+$phone-screen: 500px;
+@media(min-width: $phone-screen) {
+    .banner-img{
+        width: 100%;
+        background-color: red;
+        height: 500px;
+        margin-top: -15px;
+    }
+}
