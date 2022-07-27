@@ -11,48 +11,52 @@ function Home() {
         </div>
       </div>
       <div className="introduction">
-        <h5>Introducing</h5>
-        <p>I am just adding random verbiage for now. I am going to change this shit real hard once I know what to put here.</p>
-        <div className="shop toothbrush">
+        <h3>Introducing</h3>
+        <p>I am just adding random verbiage for now. I am going to change this poopy real hard once I know what to put here.</p>
+        <div className="toothbrush">
           <img></img>
           <span>Shop</span>
           <span>Toothbrushes</span>
         </div>
-        <div className="shop toothpaste">
+        <div className="toothpaste">
           <img></img>
           <span>Shop</span>
           <span>Toothpaste</span>
         </div>
       </div>
-      <div className="sellers new">
-        <p>Toothbrush</p>
-        <p>Toothpaste</p>
-        <div className="karen-soul">
-          <div className="first-img">
-            <img></img>
-            <span>Title</span>
-            <span>Price</span>
-          </div>
-          <div className="second-img">
-            <img></img>
-            <span>Title</span>
-            <span>Price</span>
+      <div className="to-sale">
+        <div className="sellers best">
+          <h3>Best Sellers</h3>
+          <p>Toothbrush</p>
+          <p>Toothpaste</p>
+          <div className="karen-soul">
+            <div className="first-img">
+              <img></img>
+              <span>Title</span>
+              <span>Price</span>
+            </div>
+            <div className="second-img">
+              <img></img>
+              <span>Title</span>
+              <span>Price</span>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="sellers best">
-      <p>Toothbrush</p>
-        <p>Toothpaste</p>
-        <div className="karen-soul">
-          <div className="first-img">
-            <img></img>
-            <span>Title</span>
-            <span>Price</span>
-          </div>
-          <div className="second-img">
-            <img></img>
-            <span>Title</span>
-            <span>Price</span>
+        <div className="sellers new">
+          <h3>New In Stock</h3>
+          <p>Toothbrush</p>
+          <p>Toothpaste</p>
+          <div className="karen-soul">
+            <div className="first-img">
+              <img></img>
+              <span>Title</span>
+              <span>Price</span>
+            </div>
+            <div className="second-img">
+              <img></img>
+              <span>Title</span>
+              <span>Price</span>
+            </div>
           </div>
         </div>
       </div>

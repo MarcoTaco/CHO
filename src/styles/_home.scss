@@ -1,9 +1,94 @@
 $phone-screen: 500px;
-@media(min-width: $phone-screen) {
-    .banner-img{
-        width: 100%;
+
+.banner-img{
+    width: 100%;
+    background-color: red;
+    height: 500px;
+    margin-top: -15px;
+    .banner-btn{
+        position: relative;
+        top: 350px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 25%;
+        padding-right: 25%;
+        span:first-child{
+            margin-bottom: 20px;
+        }
+        span{
+            padding-top: 2px;
+            padding-bottom: 2px;
+            text-align: center;
+            background-color: white;
+            border-style: solid;
+            border-radius: 15px;
+            border-color: black;
+            border-width: 2px;
+        }
+    }
+}
+
+.introduction{
+    padding: 0px;
+    margin: 0px;
+    h3{
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top: 15px; 
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    p{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .toothbrush{
         background-color: red;
-        height: 500px;
-        margin-top: -15px;
+        width: 90%;
+        height: 120px;
+        margin-left: 15px;
+        padding-bottom: 10px;
+        span{
+            position: relative;
+            left: 90px;
+            top: 25px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .toothpaste{
+        background-color: red;
+        width: 90%;
+        height: 120px;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        padding-bottom: 10px;
+        span{
+            position: relative;
+            right: 90px;
+            top: 25px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.to-sale{
+    .best{
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
+    }
+    .new{
+        h3{
+            text-align: center;
+            text-decoration: underline;
+        }
     }
 }
