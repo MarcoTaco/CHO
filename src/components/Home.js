@@ -12,7 +12,7 @@ function Home() {
       </div>
       <div className="introduction">
         <h3>Introducing</h3>
-        <p>I am just adding random verbiage for now. I am going to change this poopy real hard once I know what to put here.</p>
+        <p>I am just adding random verbiage for now. I am going to change this once I know what to put here.</p>
         <div className="toothbrush">
           <img></img>
           <span>Shop</span>
@@ -27,18 +27,26 @@ function Home() {
       <div className="to-sale">
         <div className="sellers best">
           <h3>Best Sellers</h3>
-          <p>Toothbrush</p>
-          <p>Toothpaste</p>
+          <div className="choice">
+            <p>Toothbrush</p>
+            <p>Toothpaste</p>
+          </div>
           <div className="karen-soul">
-            <div className="first-img">
-              <img></img>
-              <span>Title</span>
-              <span>Price</span>
-            </div>
-            <div className="second-img">
-              <img></img>
-              <span>Title</span>
-              <span>Price</span>
+            <div className="best-row">
+              <div className="first-img">
+                <img></img>
+              </div>
+              <div className="first-title-price">
+                <span>Title</span>
+                <span>Price</span>
+              </div>
+              <div className="second-img">
+                <img></img>
+              </div>
+              <div className="second-title-price">
+                <span>Title</span>
+                <span>Price</span>
+              </div>
             </div>
           </div>
         </div>
@@ -63,23 +71,15 @@ function Home() {
       <div className="categories">
         <div className="brush hard">
           <img></img>
-          <span>Hard</span>
-          <span>Brush</span>
+          <span>Hard Brush</span>
         </div>
         <div className="brush medium">
           <img></img>
-          <span>Medium</span>
-          <span>Brush</span>
+          <span>Medium Brush</span>
         </div>
         <div className="brush soft">
           <img></img>
-          <span>Soft</span>
-          <span>Brush</span>
-        </div>
-        <div className="brush medium">
-          <img></img>
-          <span>Medium</span>
-          <span>Brush</span>
+          <span>Soft Brush</span>
         </div>
         <div className="brush toothpaste">
           <img></img>
