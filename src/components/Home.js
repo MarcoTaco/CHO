@@ -35,35 +35,35 @@ function Home() {
             <div className="best-row">
               <div className="first-img">
                 <img></img>
-              </div>
-              <div className="first-title-price">
-                <span>Title</span>
-                <span>Price</span>
+                <p>Title</p>
+                <p>Price</p>
               </div>
               <div className="second-img">
                 <img></img>
-              </div>
-              <div className="second-title-price">
-                <span>Title</span>
-                <span>Price</span>
+                <p>Title</p>
+                <p>Price</p>
               </div>
             </div>
           </div>
         </div>
         <div className="sellers new">
           <h3>New In Stock</h3>
+          <div className="choice">
           <p>Toothbrush</p>
           <p>Toothpaste</p>
+          </div>
           <div className="karen-soul">
-            <div className="first-img">
-              <img></img>
-              <span>Title</span>
-              <span>Price</span>
-            </div>
-            <div className="second-img">
-              <img></img>
-              <span>Title</span>
-              <span>Price</span>
+            <div className="new-row">
+              <div className="first-img">
+                <img></img>
+                <p>Title</p>
+                <p>Price</p>
+              </div>
+              <div className="second-img">
+                <img></img>
+                <p>Title</p>
+                <p>Price</p>
+              </div>
             </div>
           </div>
         </div>
